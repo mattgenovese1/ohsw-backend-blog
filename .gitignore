@@ -129,3 +129,30 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+.env
+.cache
+.tmp
+
+# Uploads folder
+/public/uploads
+
+# Database
+.sqlite*
+.tmp*
+
+# Logs
+*.log
+
+# Local development files
+.strapi-admin
